@@ -16,7 +16,7 @@ app.use('/api', postRoutes)
 
 
 
-mongoose.connect("mongodb+srv://user:user@restapi.fptkcqu.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://xenoclub7:7WKlAN8XW5vfCTMx@biserver.z3sktii.mongodb.net/?retryWrites=true&w=majority&appName=BISERVER")
 .then(() => {
     console.log("database is running")
 })
